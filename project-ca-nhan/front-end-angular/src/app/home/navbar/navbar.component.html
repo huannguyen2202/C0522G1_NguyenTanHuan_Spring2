@@ -1,0 +1,57 @@
+<div class="container-fluid">
+<div class="row">
+  <div class="col-lg-1">
+  </div>
+  <div class="col-lg-2">
+    <img src="/assets/Screenshot 2022-11-29 215907.png" width="200" height="auto">
+  </div>
+  <div class="col-lg-9">
+    <form class="navbar-form navbar-left mt-4" role="search">
+      <div class="form-group " style="float: left;width: 400px;border-radius: 50px">
+        <input type="text" class="form-control" placeholder="Tên sản phẩm ...">
+      </div>
+      <button type="submit" class="btn btn-default mx-1" style="background: rgb(58,36,83);color:white;border-radius: 10px">Tìm</button>
+    </form>
+  </div>
+</div>
+
+<div style="background-color: #0C6154" class="row navbar">
+  <div class="col-lg-12">
+    <nav class="navbar navbar-expand-lg nav-header">
+      <div style="margin: auto">
+        <button class="navbar-toggler" style="background: white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll" style="text-align: center">
+            <li class="nav-item mx-4">
+              <a class="nav-link colorA" routerLink="/ticket/booking-ticket">
+                <i class="fa-solid fa-house-user"></i> Trang chủ</a>
+            </li>
+            <li class="nav-item dropdown mx-4">
+              <a class="nav-link dropdown-toggle colorA" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                <i class="fa-brands fa-product-hunt"></i> Sản phẩm
+              </a>
+              <ul class="dropdown-menu dropdown-menu-danger">
+                <li><a class="dropdown-item" routerLink="/moviePlay">Cầu lông</a></li>
+                <li><a class="dropdown-item" routerLink="/moviePremiere">Giày cầu lông</a></li>
+                <li><a class="dropdown-item" routerLink="/moviePremiere">Vật dụng khác</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link colorA" routerLink="/employee/list"><i class="fa-solid fa-list-check"></i> Giới thiệu</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link colorA" routerLink="/customer/list"><i
+                class="fa fa-user-secret"></i> Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+</div>
