@@ -1,0 +1,46 @@
+<div id="id01" class="modal">
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="/assets/logo chính.png" height="80px" width="auto">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Tài khoản</b></label>
+      <input id="uname" type="text" placeholder="Nhập tài khoản" name="uname" required>
+
+      <label for="psw"><b>Mật khẩu</b></label>
+      <input id="psw" type="password" placeholder="Nhập mật khẩu" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="row">
+      <div class="col-lg-1">
+<!--        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="margin-left: 15px">Cancel</button>-->
+      </div>
+      <div class="col-lg-9">
+      </div>
+      <div class="col-lg-1">
+        <span style="margin-left: -70px; margin-top: 30px">Forgot<a href="#">password?</a></span>
+      </div>
+      <div class="col-lg-1">
+
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
